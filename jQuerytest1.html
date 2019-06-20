@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+      <!--this "activates" and enables you to use jquery in the code-->
+      <title>jquery Practice</title>
+      <link rel="shortcut icon" type="image/x-icon" href="jj.png" />
+   </head>
+   <body>
+    <script>
+    $(function(){
+
+            // jQuery methods go here...
+            // is how you make notes now inside scripts "//"
+            $(document).ready(function(){
+            $("button").click(function(){
+            //  " $("p").hide(); " would hide any paragrapgh, however we are not going to do that here
+            $("#foo").hide();
+            // or "$(".foo")" would do something similar, but instead of an ID it would be a "class"
+            // 
+          });
+      });
+   });
+    </script>
+
+    <!--the "script is what "opens" the jquery-->
+    <h1>This text will not delete as you click the button</h1>
+    <p>Neither will this</p>
+    <p id="foo">But this text will</p>
+    <!-- now anything with the "id="foo" will be hidden with a button click now-->
+    <!-- if a class you would put "class" instead of "id"-->
+    <button>Booty</button>
+   </body>
+</html>

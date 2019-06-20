@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+      <title>More jquery Practice</title>
+</head>
+   <body>
+    <style>
+        .wait {cursor: wait;}
+        .foo {cursor: not-allowed;}
+    div {
+            -webkit-user-select: none; /* Safari 3.1+ */
+            -moz-user-select: none; /* Firefox 2+ */
+            -ms-user-select: none; /* IE 10+ */
+            user-select: none; /* Standard syntax */
+        }
+    </style>
+        <script>
+        $(function(){
+        $(document).ready(function(){
+        });
+    });
+        </script>
+        <p>Test</p>
+        <p class="wait">This text will load something</p>
+        <div class="no-copy">
+        <p class="foo">Don't click or copy  me</p>
+        </div>
+    </body>
+</html> 
